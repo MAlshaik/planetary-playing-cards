@@ -1,11 +1,5 @@
 [
     {
-        "name": "Sun",
-        "auDistance": "0",
-        "type": "G2V",
-        "color": "#FDB813"
-    },
-    {
         "name": "Mercury",
         "auDistance": "0.39",
         "color": "#6D7275"

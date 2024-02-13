@@ -10,14 +10,21 @@ title: 11ty Boilerplate
   <title>{{ title }}</title>
   <link rel="stylesheet" href="/styles/screen.css">
 </head>
-<body>
-    <header>
-        <h1>Planetary Playing Cards</h1>
-    </header>
-    <main>
-        {% for planet in planets %}
-            {% include "planetCard.html" %}
-        {% endfor %}
-    </main>
+<body style="background:rgb(35,35,35);">
+<main>
+<h1 style="text-align:left;">Planetary Playing Cards</h1>
+<div style="display:flex; flex-direction:row; justify-content:center;">
+    <div class="sun_card">
+        <div class="planet-avatar" style="width:300px; height:300px;background: #FDB813;"></div>
+        <h2>Sun</h2>
+        <p>Type: G2Y</p>
+    </div>
+    <div class="rainbow">
+    {% for planet in planets %}
+        {% include "planetCard.html" %}
+    {% endfor %}
+    </div>
+    </div>
+</main>
 </body>
 </html>
