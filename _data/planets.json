@@ -1,0 +1,49 @@
+[
+    {
+        "name": "Sun",
+        "auDistance": "0",
+        "type": "G2V",
+        "color": "#FDB813"
+    },
+    {
+        "name": "Mercury",
+        "auDistance": "0.39",
+        "color": "#6D7275"
+    },
+    {
+        "name": "Venus",
+        "auDistance": "0.72",
+        "color": "#EDA249"
+    },
+    {
+        "name": "Earth",
+        "auDistance": "1",
+        "color": "#6D9DC5"
+    },
+    {
+        "name": "Mars",
+        "auDistance": "1.52",
+        "color": "#C1440E"
+    },
+    {
+        "name": "Jupiter",
+        "auDistance": "5.20",
+        "color": "#E9DAB4"
+    },
+    {
+        "name": "Saturn",
+        "auDistance": "9.58",
+        "color": "#FCCB6B"
+    },
+    {
+        "name": "Uranus",
+        "auDistance": "19.18",
+        "color": "#C1E1DC"
+    },
+    {
+        "name": "Neptune",
+        "auDistance": "30.07",
+        "color": "#446CB3"
+    }
+]
+
